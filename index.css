@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,700;1,400&display=swap');
+
+ /* This is for my first page index is mainly about myself plus resume */
+
+html {
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat; 
+    background-size:cover;
+
+}
+body {
+    display: inline;
+    width: 100%;
+    font-family: 'Georama', sans-serif;
+    scroll-behavior: auto;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+body > img {
+    border: 5px;
+}
+p {
+    font-size: 15px;
+}
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+.container h1 {
+    padding-top: 10px;
+    color: darkred;
+    font-size: 2rem;
+}
+body h2 {
+    color: gray;
+    font-size: 1rem;
+}
+p {
+    color: white;
+
+}
+/* This is my top image */
+.images {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+h1 {
+    color: white;
+}
+ /* list for my certifications */
+ol > li  {
+        float: center;
+        width: 80%;
+        margin: 0 auto;
+}
+ol {
+    padding: 0;
+    margin: 0 auto;
+    float:center;
+    width: 80%;
+
+}
+
+/*list for internship */
+dl {
+    border: 2px solid black;
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+dt {
+    float: left;
+    clear: left;
+    width: 120px;
+    height: 70px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom:10px;
+
+
+}
+dd {
+    border-left:1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0px 0 0 120px;
+    padding: 10px;
+    color: black;
+    text-align: left;
+    height:70px;
+
+
+}
+
+/*for my skills and cert */
+ol {
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    list-style-type: none;
+
+}
+ol > li {
+    border: 1px solid black;
+    width: 100%;
+}
+ /* Button */
+#myBtn {
+    color: red;
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 3%;
+    margin-left: 0;
+    transform: translateY(-90%);
+}
+@media only screen and (max-width: 900px) {
+    img {
+        width: 100%;
+    }
+    body{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        width: 80%;
+    }
+    ol {
+        padding: 0;
+        margin: 0 auto;
+    }
+    h1 {
+        color: white;
+    }
+    dt{
+        padding-bottom:35px;
+    }
+    dd {
+        font-size: 11px;
+        padding-bottom: 35px;
+    }
+    #myBtn {
+        display: inline-block;
+        color: red;
+        background: transparent;
+        width: 10%;
+        background-size: cover;
+        border: none;
+        position: absolute;
+        right: 10%;
+        transform: translateY(-80%);
+    }
+
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,700;1,400&display=swap');
+
+html {
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+}
+/*
+dl {
+    background-color: darkgray;
+    background-size: contain;
+    color:rgb(255, 255, 255);
+    width: 50%;
+    float:center;
+    margin: 100px auto;
+    border: 3px double black;
+    border-radius: 10px;
+    padding: 0.5em;
+
+}
+dt {
+    float: left;
+    clear: left;
+    width: 120px;
+    text-align: right;
+    font-weight: bolder;
+    color: Blue;
+}
+dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+    color: black;
+}
+*/
+nav {
+    padding-bottom:20px;
+}
+.a {
+  margin-top: 80px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 10px;  
+}
+.a li {
+    padding-bottom: 5px;
+}
+
+/* Picture */
+a img {
+    display: block;
+    width:50%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px){
+    dd {
+      font-size: 13px;  
+      text-align: center;
+      font-weight: bold;
+      
+    }
+    dl {
+        border-bottom: 1px solid black;
+        transform:translateY(15px);
+    }
+    dl::content {
+        border-bottom: 1px solid black;
+    }
+    a img {
+        width:100%;
+        margin: 0;
+    }
+}

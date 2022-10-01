@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,700;1,400&display=swap');
+
+nav {
+    display: inline-block;
+    list-style-type: none;
+
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    width:100%;
+    height: 40px;
+    font-size: medium;
+    font-family: 'Georama', sans-serif;
+    
+    
+}
+.nav ul {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+nav li {
+    display: inline-block;
+    margin-right: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    list-style-type: none;
+    border-style:solid;
+    border-radius: 10px;
+    border-spacing: 10px;
+    background-color: white;
+}
+nav li a {
+    text-decoration: none;
+    display:inline-block;
+    padding: 1rem;
+}
+#myBtn img {
+    width: 50px;
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    nav {
+        width: 100%;
+        font-size: 10px;
+        float:center;
+    }
+    nav ul {
+        padding: 5px;
+    }
+    li {
+        padding: 1px;
+        margin: 0;
+    }
+
+
+
+    
+}
